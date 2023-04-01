@@ -31,7 +31,7 @@ export default function BarChart() {
 
     useEffect(() => {
         setChartData({
-            labels: ["Sund", "Mon", "Tues", "Wed", "Thurs","Fri", "Sat"],
+            labels: ["Sun", "Mon", "Tues", "Wed", "Thurs","Fri", "Sat"],
             datasets: [
                 {
                     label: 'Sales $',

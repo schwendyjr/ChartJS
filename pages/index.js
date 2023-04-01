@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import BarChart from '@/components/BarChart'
+import { PieChart } from '@/Components/PieChart'
+import { DoughnutChart } from '@/Components/DoughnutChart'
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <BarChart/>
+        <PieChart/>
+        <DoughnutChart/>
       </main>
     </>
   )
